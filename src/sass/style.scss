@@ -84,7 +84,7 @@ body{
 }
 
 .link-list{
-    height: 80%;
+    height: 540px;
     overflow-y: auto;
     width: 100%;
     display: flex;
@@ -139,5 +139,12 @@ body{
 @media (max-width: 600px) {
     .сontainer{
         transform: scale(0.7);
+    }
+
+    .link-list{
+        height: 400px;
+        &>li{
+            margin: 5px;
+        }
     }
 }
