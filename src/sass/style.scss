@@ -84,7 +84,7 @@ body{
 }
 
 .link-list{
-    height: 50%;
+    height: 80%;
     overflow-y: auto;
     width: 100%;
     display: flex;
@@ -125,6 +125,7 @@ body{
         & :nth-child(1){
             color: $dark-primary-color;
             text-decoration: none;
+            margin-bottom: 5px;
         }
         & :nth-child(2){
             color: $dark-secondary-color;
