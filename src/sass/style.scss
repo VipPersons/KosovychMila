@@ -102,7 +102,9 @@ body{
 
         display: flex;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
+
+        cursor: pointer;
     }
 }
 
@@ -111,6 +113,17 @@ body{
 
 
     & .link-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+}
 
+
+@media (max-width: 600px) {
+    .сontainer{
+        transform: scale(0.7);
     }
 }
