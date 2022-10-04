@@ -51,3 +51,20 @@ img{
 
 	filter: grayscale(50%) saturate(50%);
 }
+
+
+::-webkit-scrollbar {
+    width: 5px;
+	height: 5px;
+    background-color: #0000;
+    scroll-padding: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #41393B;
+    border-radius: 5px;
+    transition: all 2s linear;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
