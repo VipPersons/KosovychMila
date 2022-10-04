@@ -93,7 +93,7 @@ body{
 
 
     &>li{
-        height: 50px;
+        height: 70px;
         width: 90%;
         margin: 10px;
 
@@ -118,6 +118,16 @@ body{
         align-items: center;
         justify-content: center;
         width: 60%;
+
+        & :nth-child(1){
+            color: $dark-primary-color;
+            text-decoration: none;
+        }
+        & :nth-child(2){
+            color: $dark-secondary-color;
+            text-decoration: none;
+            font-size: 14px;
+        }
     }
 }
 
