@@ -21,8 +21,9 @@ body{
     background: rgba(74, 74, 74, 0.247);
     box-shadow: 0 8px 32px 0 rgba(57, 57, 57, 0.37);
     backdrop-filter: blur( 8px );
-    border-radius: 30px;
     border: 1px solid #332d2e;
+    border-radius: 30px;
+    
 }
 
 .сontainer{
@@ -100,12 +101,15 @@ body{
         width: 90%;
         margin: 10px;
 
-        background-color: rgb(23, 23, 23);
+        background-color: rgba(23, 23, 23, 0.915);
         border-radius: 30px;
 
         display: flex;
         align-items: center;
         justify-content: center;
+
+        backdrop-filter: blur( 8px );
+        border: 1px solid #332d2e;
 
         cursor: pointer;
     }
